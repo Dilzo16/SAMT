@@ -11,7 +11,7 @@ $class = "Bookcatalog\BookService";
 
 
 // $wsdl = 'example.wsdl';
-$wsdl = 'moneyconverter.wsdl';
+$wsdl = null;
 
 $server=new SoapServer($wsdl,['uri'=>"http://localhost/SAMT/Server.php"]);
 
