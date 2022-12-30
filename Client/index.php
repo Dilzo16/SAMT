@@ -14,19 +14,19 @@
 
 <div class="container">
 <div class="wrapper">
-    <h2>Curre Conversion</h2>
+    <h2>Currency Converter 💱</h2>
 
    
 
     <form action="Client.php" method="post">
 
         <div class="form-group">
-            <label for="usr">Money Amount:</label>
-            <input type="number" class="form-control" id="usr" name="amount">
+            <label for="usr">Amount:</label>
+            <input type="number" placeholder="1" class="form-control" id="usr" name="amount">
         </div>
 
         <div class="form-group">
-            <label for="sel1">Source Money Type</label>
+            <label for="sel1">FROM (</label>
             <select class="form-control" id="sel1" name="source">
                 <option value="AED">AED</option>
                 <option value="AFN">AFN</option>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="form-group">
-            <label for="sel2">Target Money Type</label>
+            <label for="sel2">TO</label>
             <select class="form-control" id="sel2" name="target">
                 <option value="AED">AED</option>
                 <option value="AFN">AFN</option>
@@ -49,7 +49,7 @@
             <br>
         </div>
 
-        <button type="submit" class="btn btn-info" name="submit">Convert</button>
+        <button type="submit"  name="submit">Convert</button>
     </form>
 
 
@@ -59,6 +59,11 @@
 
     <?php }?>
     </div>
+</div>
+
+<div class="project">
+    <h3>Github Url</h3>
+    
 </div>
 
 </body>
